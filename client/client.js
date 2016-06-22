@@ -34,5 +34,5 @@ client.on('connect', function(connection) {
   });  
 });
 
-var con = client.connect('ws://localhost:4000/echo', [])
+var con = client.connect('ws://localhost:8090/_ws', "ping_protocol")
 
